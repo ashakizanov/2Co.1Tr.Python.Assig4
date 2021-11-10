@@ -30,9 +30,9 @@ def index():
         r = requests.get(url)
         soup = BeautifulSoup(r.content, 'html.parser')
         coin_content = str(soup.find_all('p'))
-        new_task = Coin(name=coin_name, content=coin_content)
+        new_coin = Coin(name=coin_name, content=coin_content)
         try:
-            db.session.add(new_task)
+            db.session.add(new_coin)
             db.session.commit()
             return redirect('/coin')
         except:
@@ -47,8 +47,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-# url = 'https://coinmarketcap.com/ru/currencies/{0}'.format(task_name)
-#         r = requests.get(url)
-#         soup = BeautifulSoup(r.content, 'html.parser')
-#         task_content = soup.p
