@@ -37,7 +37,7 @@ oracle://user:passwoed@127.0.0.1:1521/mydatabase
 
 #Examples
 ```bash
-https://github.com/miguelgrinberg
+https://github.com/selfedu-rus/flsite_sqlalchemy-23
 https://www.section.io/engineering-education/flask-database-integration-with-sqlalchemy/
 ```
 
