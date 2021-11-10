@@ -28,7 +28,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:PASSWORD@localhost/CoinMarket'
 db = SQLAlchemy(app)
 
-```bash
+
 postgresql://user:passwoed@localhost/mydatabase
 mysql://user:passwoed@localhost/mydatabase
 oracle://user:passwoed@127.0.0.1:1521database
