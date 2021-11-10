@@ -31,7 +31,7 @@ db = SQLAlchemy(app)
 
 postgresql://user:passwoed@localhost/mydatabase
 mysql://user:passwoed@localhost/mydatabase
-oracle://user:passwoed@127.0.0.1:1521database
+oracle://user:passwoed@127.0.0.1:1521/mydatabase
 ```
 
 
