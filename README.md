@@ -24,7 +24,8 @@ from sqlalchemy import desc
 
 #Examples
 ```bash
-
+https://github.com/miguelgrinberg
+https://www.section.io/engineering-education/flask-database-integration-with-sqlalchemy/
 ```
 
 ##Sources
