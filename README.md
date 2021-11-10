@@ -33,7 +33,7 @@ postgresql://user:passwoed@localhost/mydatabase
 mysql://user:passwoed@localhost/mydatabase
 oracle://user:passwoed@127.0.0.1:1521database
 ```
-```
+
 
 #Examples
 ```bash
