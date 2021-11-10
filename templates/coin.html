@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+    {% block head %}
+        <title>FlaskBS</title>
+    {% endblock %}
+    {% block body %}
+        <div>
+            <form action="/coin" method="POST">
+                <input type="text" name="name" id="name" placeholder="{{nname}}">
+                <input type="submit" value="Check">
+            </form>
+            {% for soupp in soupfindall %}
+                <p>
+                    {{soupp}}
+                </p>
+            {% endfor %}
+        </div>
+    {% endblock %}
