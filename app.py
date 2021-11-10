@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from sqlalchemy import desc
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Aa8036673371@localhost/CoinMarket'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:PASSWORD@localhost/CoinMarket'
 db = SQLAlchemy(app)
 
 
